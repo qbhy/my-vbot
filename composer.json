@@ -3,7 +3,9 @@
         "hanson/vbot": "^2.0",
         "vbot/guess-number": "^1.0",
         "vbot/hot-girl": "^1.0",
-        "vbot/blacklist": "^1.0"
+        "vbot/blacklist": "^1.0",
+        "96qbhy/vbot-express": "dev-master",
+        "96qbhy/express": "dev-master"
     },
     "autoload": {
         "psr-4": {

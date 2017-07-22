@@ -29,7 +29,7 @@ class Example
 
         $robot->messageExtension->load([
             // some extensions
-            Blacklist::class,
+//            Blacklist::class,
             GuessNumber::class,
             HotGirl::class,
             Express::class,

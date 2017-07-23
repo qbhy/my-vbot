@@ -4,7 +4,8 @@
         "vbot/guess-number": "^1.0",
         "vbot/hot-girl": "^1.0",
         "vbot/blacklist": "^1.0",
-        "vbot/express": "^1.0"
+        "vbot/express": "^1.0",
+        "96qbhy/find-movies": "^1.0"
     },
     "autoload": {
         "psr-4": {

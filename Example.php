@@ -5,6 +5,7 @@ namespace Hanson\MyVbot;
 use Hanson\Vbot\Foundation\Vbot as Bot;
 use Vbot\Blacklist\Blacklist;
 use Vbot\Express\Express;
+use Vbot\FindMovies\FindMovies;
 use Vbot\GuessNumber\GuessNumber;
 use Vbot\HotGirl\HotGirl;
 
@@ -33,6 +34,7 @@ class Example
             GuessNumber::class,
             HotGirl::class,
             Express::class,
+            FindMovies::class,
         ]);
 
         $robot->observer->setQrCodeObserver([Observer::class, 'setQrCodeObserver']);

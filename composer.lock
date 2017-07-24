@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ac0e17f1c6bd9f5fbe76f9f70c50576",
+    "content-hash": "729c24bf28baae975cce1998e794ca79",
     "packages": [
         {
             "name": "96qbhy/express",
@@ -1688,6 +1688,51 @@
             ],
             "description": "简单的快递查询接口。",
             "time": "2017-07-19T02:58:52+00:00"
+        },
+        {
+            "name": "vbot/find-movies",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpvbot/find-movies.git",
+                "reference": "eb4a7b2e6647d341813539a20d85d8a5be2234a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/phpvbot/find-movies/eb4a7b2e6647d341813539a20d85d8a5be2234a5.zip",
+                "reference": "eb4a7b2e6647d341813539a20d85d8a5be2234a5",
+                "shasum": ""
+            },
+            "require": {
+                "96qbhy/find-movies": "^1.0"
+            },
+            "require-dev": {
+                "hanson/vbot": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vbot\\FindMovies\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "96qbhy",
+                    "email": "96qbhy@gmail.com"
+                }
+            ],
+            "description": "vbot 找电影扩展。",
+            "keywords": [
+                "Vbot",
+                "findMovies",
+                "找电影",
+                "电影"
+            ],
+            "time": "2017-07-23T16:14:28+00:00"
         },
         {
             "name": "vbot/guess-number",

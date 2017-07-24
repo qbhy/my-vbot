@@ -49,16 +49,16 @@
         },
         {
             "name": "96qbhy/find-movies",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/96qbhy/find-movies.git",
-                "reference": "84023c625b290c5860d6eb3dd61c154f580cecb8"
+                "reference": "b0eb9a0f7b8a85626f056ee33dfa629c5dae869e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/96qbhy/find-movies/84023c625b290c5860d6eb3dd61c154f580cecb8.zip",
-                "reference": "84023c625b290c5860d6eb3dd61c154f580cecb8",
+                "url": "https://files.phpcomposer.com/files/96qbhy/find-movies/b0eb9a0f7b8a85626f056ee33dfa629c5dae869e.zip",
+                "reference": "b0eb9a0f7b8a85626f056ee33dfa629c5dae869e",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
                 "找电影",
                 "电影"
             ],
-            "time": "2017-07-23T08:30:49+00:00"
+            "time": "2017-07-23T15:25:31+00:00"
         },
         {
             "name": "aferrandini/phpqrcode",
@@ -1614,16 +1614,16 @@
         },
         {
             "name": "vbot/blacklist",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpvbot/blacklist.git",
-                "reference": "3643643868c5ca5a676051d53ff4c37f90e27ccf"
+                "reference": "4f3bfafcf1bfb8bdecfbef834081eaf96bad5c3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/phpvbot/blacklist/3643643868c5ca5a676051d53ff4c37f90e27ccf.zip",
-                "reference": "3643643868c5ca5a676051d53ff4c37f90e27ccf",
+                "url": "https://files.phpcomposer.com/files/phpvbot/blacklist/4f3bfafcf1bfb8bdecfbef834081eaf96bad5c3a.zip",
+                "reference": "4f3bfafcf1bfb8bdecfbef834081eaf96bad5c3a",
                 "shasum": ""
             },
             "require": {
@@ -1648,7 +1648,7 @@
                     "email": "h@hanc.cc"
                 }
             ],
-            "time": "2017-07-15T08:14:56+00:00"
+            "time": "2017-07-20T02:12:13+00:00"
         },
         {
             "name": "vbot/express",

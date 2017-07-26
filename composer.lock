@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "729c24bf28baae975cce1998e794ca79",
+    "content-hash": "6a90ea743d8c3785602485e79d0eb1d8",
     "packages": [
         {
             "name": "96qbhy/express",
@@ -1691,20 +1691,20 @@
         },
         {
             "name": "vbot/find-movies",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpvbot/find-movies.git",
-                "reference": "eb4a7b2e6647d341813539a20d85d8a5be2234a5"
+                "reference": "a043cd8c029c7ef664cb653a6852c3e95f5b1e2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/phpvbot/find-movies/eb4a7b2e6647d341813539a20d85d8a5be2234a5.zip",
-                "reference": "eb4a7b2e6647d341813539a20d85d8a5be2234a5",
+                "url": "https://files.phpcomposer.com/files/phpvbot/find-movies/a043cd8c029c7ef664cb653a6852c3e95f5b1e2d.zip",
+                "reference": "a043cd8c029c7ef664cb653a6852c3e95f5b1e2d",
                 "shasum": ""
             },
             "require": {
-                "96qbhy/find-movies": "^1.0"
+                "96qbhy/find-movies": "^1.1"
             },
             "require-dev": {
                 "hanson/vbot": "^2.0"
@@ -1732,7 +1732,7 @@
                 "找电影",
                 "电影"
             ],
-            "time": "2017-07-23T16:14:28+00:00"
+            "time": "2017-07-24T02:48:04+00:00"
         },
         {
             "name": "vbot/guess-number",
@@ -1856,10 +1856,43 @@
             "time": "2017-06-19T17:50:31+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "eaglewu/swoole-ide-helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eaglewu/swoole-ide-helper.git",
+                "reference": "54532052afe69b6fddc0009600f7e321e742cb82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/eaglewu/swoole-ide-helper/54532052afe69b6fddc0009600f7e321e742cb82.zip",
+                "reference": "54532052afe69b6fddc0009600f7e321e742cb82",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swoole\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "soul11201",
+                    "email": "soul11201@gmail.com"
+                }
+            ],
+            "description": "Swoole 在IDE下自动识别类、函数、宏，自动补全函数名",
+            "time": "2017-07-20T09:22:13+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "eaglewu/swoole-ide-helper": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
